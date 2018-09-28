@@ -1,0 +1,26 @@
+{
+  "name": "purecss-vignes",
+  "version": "1.0.0",
+  "description": "Retro poster art style, entirely in CSS",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve -l 6001",
+    "pm2start": "pm2 start npm -i 1 --name purecss-vignes --max-memory-restart 100M -- start",
+    "pm2stop": "pm2 stop purecss-vignes",
+    "pm2restart": "pm2 restart purecss-vignes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nqdy666/purecss-vignes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nqdy666/purecss-vignes/issues"
+  },
+  "homepage": "https://github.com/nqdy666/purecss-vignes#readme",
+  "devDependencies": {
+    "pm2": "^3.1.3",
+    "serve": "^10.0.2"
+  }
+}
